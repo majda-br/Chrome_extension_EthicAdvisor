@@ -1,0 +1,100 @@
+body {
+    position: relative;
+    width:300px;
+    height:560px;
+    background-color: #F5F5F5;
+}
+
+
+/* Logo EthicAdvisor en tête de la popup */
+#logo {
+    position:absolute;
+    top:5.9%;
+    bottom:13.8%;
+    left:16.5%;
+    width:66.7%;
+    
+}
+
+/* Texte indiquant au client de se connecter */
+#se_connecter{
+    position:absolute;
+    font-size: 17px;
+    line-height: 5px;
+    top:23.2%;
+    left:31.8%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+
+/* Ligne où l'utilisateur entre son adresse mail */
+#email {
+    position:absolute;
+    top:38.1%;
+}
+
+
+/* Ligne où l'utilisateur rentre son mot de passe */
+#pass {
+    position: absolute;
+    top:51.5%;
+}
+
+
+/* Mise en forme de l'espace email et password */
+#email, #pass {
+    border: none;
+    font-size:14px;
+    left:16.5%;
+    width:66.7%;
+    padding-left:0.4%;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DADADA
+}
+
+
+/* Bouton de validation */
+#validation_connexion {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    position:absolute;
+    top:68.2%;
+    left:16.5%;
+    height:7.9%;
+    width:67.8%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #ED6F1A;
+    border-radius: 20px;
+    border: none
+}
+
+
+/* Texte invitant un nouveau client à créer un compte */
+#paragraphe_nouveau_compte {
+    text-align:center;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    position:absolute;
+    top:83.7%;
+    left:14.8%;
+    width:70.4%
+}
+
+
+/* Lien pour créer un nouveau compte */
+#creercompte {
+    color:#ED6F1A;
+    font-weight: bold;
+    position:absolute;
+    text-align:center;
+    font-size:15px;
+    top:88.02%;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    left: 30%;
+}
