@@ -1,0 +1,48 @@
+<!-- Ce fichier code la popup de connexion-->
+<!-- Le fichier css associé se nomme style_connexion.css -->
+<!-- Il faudra coder un programme en javascript dans le background.js pour récupérer les données de l'API d'EthicAdvisor -->
+<!-- On pourra regarder le fichier identifiants.js qui n'est pas fonctionnel à l'heure actuelle -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="identifiant.css"/>
+</head>
+<body>
+    <!-- Logo EthicAdvisor en tête de la popup -->
+    <img id="logo" src="logo_sans_ligne_bleu.png" alt="EthicAdvisor">
+    <p>
+        <br/>
+
+        <!--- Texte indiquant au client de se connecter -->
+        <div id="se_connecter">Se connecter :</div><br/><br/>
+
+        <!-- Ligne où l'utilisateur entre son adresse mail -->
+        <input type="email" name="email" id="email" placeholder="Email"/><br/><br/><br/>
+
+        <!-- Ligne où l'utilisateur rentre son mot de passe -->
+        <input type="password" name="pass" id="pass" placeholder="Mot de passe"/><br/><br/><br/>
+
+        <!-- Bouton de validation -->
+        <input type="submit" value="Se connecter" id="validation_connexion"/>
+        <br/>
+
+    </p>
+
+    <!-- Texte invitant un nouveau client à créer un compte -->
+    <p id = "paragraphe_nouveau_compte">
+        Pas encore de compte ?
+    </p>
+
+    <!-- Lien pour créer un nouveau compte -->
+    <p id = "creercompte">
+        <a href = "https://www.ethicadvisor.org/register" target="_blank" style="color:#ED6F1A">
+            Créer un compte
+        </a>                
+    </p>
+
+</body>
+</html>

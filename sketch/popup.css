@@ -1,0 +1,555 @@
+body {
+    /*position: absolute; */
+    width: 300px;
+    height: 800px;
+    /*left: 1051px;
+    top: 0px; */
+    
+    background: #F5F5F5;
+}
+
+.en-tete {
+    position: absolute;
+    left: 17.74%;
+    right: 17.74%;
+    top: 1.65%;
+    bottom: 93.87%;
+    max-width: 65%;
+}
+
+/* Début de style du CTA */
+.cta {
+    position: absolute;
+    left: 0.5%;
+    right: 2.06%;
+    top: 7.8%;
+    bottom: 81%;
+}
+
+.vignette_ea {
+    position: absolute;
+    left: 0.5%;
+    right: 70.17%;
+    top: 7.8%;
+    bottom: 81%;
+
+    max-width: 29.3%;
+}
+
+.texte_cta {
+    position: absolute;
+    left: 28%;
+    right: 0.03%;
+    top: 14.5%;
+    bottom: 87.7%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+/* Fin de style du CTA */
+
+/* Style nom des produits */
+
+.nom_produit {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    text-decoration: solid;
+}
+
+/* Début style du produit 1 */
+/* La hauteur du cadre représente 28.21% */
+
+.cadre_produit1 {
+    position: absolute;
+    left: 5.14%;
+    right: 5.14%;
+    top: 25%;
+    bottom: 46.79%;
+
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 0px rgba(217, 217, 217, 0.7);
+    border-radius: 10px;
+}
+
+.image_produit1 {
+    position: absolute;
+    left: 4.75%;
+    right: 48.37%;
+    top: 7%;
+    bottom: 26.7%;
+
+    max-height: 75.88%;
+    max-width: 36.88%;
+}
+
+.selection1 {
+    position: absolute;
+    left: 2%;
+    right: 53.93%;
+    top: 44.15%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+
+    color: #38B3C5;
+}
+
+.icone_ea1 {
+    position: absolute;
+    left: 35%;
+    right: 46.7%;
+    top: 46.7%;
+
+    max-width: 5%;
+
+    /*display: none; */
+}
+
+.nom_produit1 {
+    position: absolute;
+    left: 40.07%;
+    right: 9.14%;
+    top: 26.5%;
+    bottom: 74.18%;
+
+    max-width: 50% ;
+    max-height: 50% ;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /*display: none; */
+}
+
+.ethiscore1 {
+    position: absolute;
+    left: 54.41%;
+    right: 21.72%;
+    top: 34.8%;
+    bottom: 69.29%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    display: block; 
+}
+
+.fond_ethiscore1 {
+    position: absolute;
+    left: 54.41%;
+    right: 21.72%;
+    top: 37.37%;
+    bottom: 58.29%;
+
+    background-color: #7BC700;
+    border-radius: 15px;
+}
+
+.prix1 {
+    position: absolute;
+    left: 45%;
+    right: 9%;
+    top: 40.89%;
+    bottom: 63.11%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /*display: none; */
+}
+
+/* Fin style du produit 1 */
+
+/* Style appliqué au cashback pour les 3 produits affichés */
+eb {
+    font-size: 13px;
+    color: #ED6F1A;
+}
+/* Fin style cashback */
+
+/* L'intervalle entre deux cadres produits est de 2% */
+
+/* Début style du produit 2 */
+
+.cadre_produit2 {
+    position: absolute;
+    left: 5.14%;
+    right: 5.14%;
+    top: 55.21%;
+    bottom: 16.58%;
+
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 0px rgba(217, 217, 217, 0.7);
+    border-radius: 10px;
+}
+
+.image_produit2 {
+    position: absolute;
+    left: 4.75%;
+    right: 48.37%;
+    top: 7%;
+    bottom: 26.7%;
+    max-height: 75.88%;
+    max-width: 36.88%;
+
+    /*display:none; */
+}
+
+.selection2 {
+    position: absolute;
+    left: 2%;
+    right: 53.93%;
+    top: 74.36%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+
+    color: #38B3C5;
+
+    /*display:none; */
+}
+
+.icone_ea2 {
+    position: absolute;
+    left: 35%;
+    right: 46.7%;
+    top: 76.91%;
+
+    max-width: 5%;
+
+    /*display: none; */
+}
+
+.nom_produit2 {
+    position: absolute;
+    left: 40.07%;
+    right: 9.14%;
+    top: 56.71%;
+    bottom: 43.97%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /*display: none; */
+}
+
+.ethiscore2 {
+    position: absolute;
+    left: 54.41%;
+    right: 21.72%;
+    top: 65.01%;
+    bottom: 39.08%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    display: block; 
+
+    /*display:none; */
+}
+
+.fond_ethiscore2 {
+    position: absolute;
+    left: 54.41%;
+    right: 21.72%;
+    top: 67.58%;
+    bottom: 28.08%;
+
+    background-color: #7BC700;
+    border-radius: 15px;
+
+    /*display:none; */
+}
+
+.prix2 {
+    position: absolute;
+    left: 45%;
+    right: 9%;
+    top: 71.1%;
+    bottom: 32.9%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /*display:none; */
+}
+
+/* Fin style du produit 2 */
+
+/* L'intervalle entre deux cadres produits est de 2% */
+
+/* Début style du produit 3 */
+
+.cadre_produit3 {
+    position: absolute;
+    left: 5.14%;
+    right: 5.14%;
+    top: 85.42%;
+    bottom: -13.63%;
+
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 0px rgba(217, 217, 217, 0.7);
+    border-radius: 10px;
+}
+
+.image_produit3 {
+    position: absolute;
+    left: 4.75%;
+    right: 48.37%;
+    top: 7%;
+    bottom: 26.7%;
+
+    max-height: 75.88%;
+    max-width: 36.88%;
+
+    /*display:none; */
+}
+
+.selection3 {
+    position: absolute;
+    left: 2%;
+    right: 53.93%;
+    top: 104.57%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+
+    color: #38B3C5;
+
+    /*display:none; */
+}
+
+.icone_ea3 {
+    position: absolute;
+    left: 35%;
+    right: 46.7%;
+    top: 107.12%;
+
+    max-width: 5%;
+
+    /*display: none; */
+}
+
+.nom_produit3 {
+    position: absolute;
+    left: 40.07%;
+    right: 9.14%;
+    top: 86.92%;
+    bottom: 13.76%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /*display: none; */
+}
+
+.ethiscore3 {
+    position: absolute;
+    left: 54.41%;
+    right: 21.72%;
+    top: 95.22%;
+    bottom: 8.87%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    display: block; 
+
+    /*display:none; */
+}
+
+.fond_ethiscore3 {
+    position: absolute;
+    left: 54.41%;
+    right: 21.72%;
+    top: 97.79%;
+    bottom: -2.13%;
+
+    background-color: #7BC700;
+    border-radius: 15px;
+
+    /*display:none; */
+}
+
+.prix3 {
+    position: absolute;
+    left: 45%;
+    right: 9%;
+    top: 101.31%;
+    bottom: 2.69%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    /*display:none; */
+}
+
+/* Fin style du produit 3 */
+
+/* Style bouton Voir tous les résultats */
+/* On laisse 4% entre le dernier cadre produit et ce bouton */
+
+.fond_resultats {    
+    position: absolute;
+    left: 16.45%;
+    right: 16.45%;
+    top: 117.63%; 
+    bottom: -23.73%;
+    
+    background: #ED6F1A;
+    border-radius: 20px;
+}
+
+.resultats_exhaustifs {
+    position: absolute;
+    left: 20.6%;
+    right: 22.6%; 
+    top: 117.7%;
+    bottom: 8.14%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* Fin style bouton Voir tous les résultats */
+
+/* Lien vers la sélection d'EthicAdvisor */
+/* On laisse 5% entre ce texte et le bouton précédent */
+
+.selection_ea {
+    position: absolute;
+    left: 7%;
+    right: 3%;
+    top: 125.48%;
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ED6F1A;
+}
+
+.lien_selection {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ED6F1A;
+}

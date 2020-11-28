@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>EthicAdvisor</title>
+        <link rel="stylesheet" href="popup.css"/>
+    </head>
+
+    <body>
+
+        <a href="https://www.ethicadvisor.org/" target="_blank">
+            <img class="en-tete" src="logo_sans_ligne_bleu.png" alt="Améliorez l'impact de vos actions et soyez récompensés">
+        </a>
+
+        <a href="https://www.ethicadvisor.org/search?onlyEA=1" target="_blank">
+            <p class="cta"> <!--rectangle du call-to-action-->
+                <img class="vignette_ea" src="logo_icone_blue_original.png">
+                <p class="texte_cta">Nous vous avons identifié des alternatives parmi notre sélection à impacts positifs !</p>
+            </p>
+        </a> 
+
+        <p class="cadre_produit1">  <!--bloc corresppondant à un produit-->
+            <a href ="" id = "url_image1" target="_blank" > 
+                <img class="image_produit1" src="" id = "image1"  >  <!--image du produit-->
+            </a>
+            <p class="selection1">SÉLECTION</p>  <!--cela correspond au texte sous l'image du produit-->
+            <img class="icone_ea1" src="logo_icone_blue_original.png">
+            <p class="nom_produit1"><a href="" target="_blank" class="nom_produit" id = "url_product1"><span id="name1"></span></a></p>  <!--nom du produit (clickable)-->
+            <div class="fond_ethiscore1"></div>
+            <p class="ethiscore1"><span id="score1"></span>/100</p>  
+            <p class="prix1"><span id="price1"></span>€ <eb>+ <span id="cashback1"></span>€ de cashback</eb></p> <!--les balises "eb" permettent de mettre en orange le texte concernant le cashback-->
+        </p>
+
+        <p class="cadre_produit2">
+            <a href ="" id = "url_image2" target="_blank"> 
+                <img class="image_produit2" src="" id = "image2" >
+            </a>
+            <p class="selection2">SÉLECTION</p>  <!--cela correspond au texte sous l'image du produit-->
+            <img class="icone_ea2" src="logo_icone_blue_original.png">
+            <p class="nom_produit2"><a href="" target="_blank" class="nom_produit" id = "url_product2"><span id="name2"></span></a></p>
+            <div class="fond_ethiscore2"></div>
+            <p class="ethiscore2"><span id="score2"></span>/100</p>
+            <p class="prix2"> <span id="price2"></span>€ <eb>+ <span id="cashback2"></span>€ de cashback</eb></p>
+        </p>
+
+        <p class="cadre_produit3">
+            <a href ="" id = "url_image3" target="_blank" >
+                <img class="image_produit3" src="" id = "image3">
+            </a>
+            <p class="selection3">SÉLECTION</p>  <!--cela correspond au texte sous l'image du produit-->
+            <img class="icone_ea3" src="logo_icone_blue_original.png" >
+            <p class="nom_produit3"><a href="" target="_blank" class="nom_produit" id = url_product3><span id="name3"></span></a></p>
+            <div class="fond_ethiscore3"></div>
+            <p class="ethiscore3"><span id="score3"></span>/100</p>
+            <p class="prix3"><span id="price3"></span>€ <eb>+ <span id="cashback3"></span>€ de cashback</eb></p>
+        </p>
+
+        <a href="" target="_blank" id ="url_category">
+            <div class="fond_resultats"></div>  <!--block du fond orange (la commande background ne marche pas directement sur le paragraphe (peut-être à cause du absolute)-->
+            <p class="resultats_exhaustifs">Voir tous les résultats</p>  
+        </a>
+
+        <p class="selection_ea"><a href="https://www.ethicadvisor.org/search?onlyEA=1" target="_blank" class="lien_selection">Voir toute la sélection EthicAdvisor</a></p>  <!--texte renvoyant vers la sélection de  produits d'EthicAdvisor (indépendamment du produit que l'utilisateur est en train de regarder)-->
+        
+    </body>
+
+    <!--Lancer le script js asscocié à cette page-->
+    <script type="text/javascript" src="popup.js">
+    </script>
+
+
+</html>

@@ -1,0 +1,28 @@
+{
+    "manifest_version":2,
+    "name":"EthicAdvisor",
+    "version":"1.0",
+    "content_scripts":[
+        {
+            "matches":[ 
+                "<all_urls>"
+            ],
+            "js":["content.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "permissions":["tabs"],
+    "icons": { 
+        "48": "sketch/logo_icone_blue.png",
+        "128": "sketch/logo_icone_blue.png" 
+    },
+
+    "browser_action":{
+        "default_icon":"sketch/logo_icone_black.png",
+        "default_popup":"sketch/sans_resultat.html",
+        "default_title":"Search for ethical products"
+    }
+    
+}
